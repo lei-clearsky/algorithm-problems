@@ -1,2 +1,2 @@
 ## Algorithm Problems and Solutions
-- Practice algorithm problems
+- algorithm problems for interviews
