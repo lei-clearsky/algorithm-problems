@@ -1,0 +1,2 @@
+## Flatten Array
+Given an array of n length, where each item in the array may be a letter, number or another array, write a function that will return a flattened array containing all the values in the original array and its children.
