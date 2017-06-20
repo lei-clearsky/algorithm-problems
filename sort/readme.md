@@ -4,6 +4,8 @@ From: https://www.khanacademy.org/computing/computer-science/algorithms#sorting-
 
 ## Insertion Sort
 
+From: https://www.khanacademy.org/computing/computer-science/algorithms#insertion-sort
+
 ## Merge Sort
 
 ## Quick Sort

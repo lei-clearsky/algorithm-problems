@@ -33,3 +33,29 @@ function selectionSort(arr) {
 }
 
 selectionSort([15, 3, -1, -39, 88, 0, 28]);
+
+// insertion sort
+// loop over items in the array
+// inserting each new item to subarray before the new item
+
+function insert(arr, rightIndex, value) {
+	for (var j = rightIndex; j >= 0 && arr[j] > value; j--) {
+		arr[j + 1] = arr[j];
+	}
+	arr[j + 1] = value;
+}
+
+function insertionSort(arr) {
+	for (var i = 1; i < arr.length; i++) {
+		insert(arr, i - 1, arr[i]);
+	}
+	return arr;
+}
+
+insertionSort([22, 11, -1, 99, 88, 9, 7, 42]);
+
+
+
+
+
+
