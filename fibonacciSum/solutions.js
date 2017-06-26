@@ -27,3 +27,15 @@ function fib(n) {
 
 	return fib(n - 1) + fib(n - 2);
 }
+
+// Solution 3:
+// memorization
+function fibMem(num, mem) {
+  mem = mem || {}
+  
+  if (mem[num]) return mem[num];
+  
+  if (num <= 1) return num;
+  
+  return fibMem(num-1, mem) + fibMem(num-2, mem);
+}
