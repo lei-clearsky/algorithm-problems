@@ -1,3 +1,5 @@
+// Solution 1 - Recursive
+//
 function balancedParentheses(chars) {
 	var charsArr = chars.split('');
 
@@ -16,7 +18,24 @@ function check(charsArr, count) {
 	}
 }
 
-balancedParentheses('(())'); // false
-balancedParentheses('(()))'); // true
+balancedParentheses('(())'); // true
+balancedParentheses('(()))'); // false
 balancedParentheses('(()()'); // false
 balancedParentheses('we will go to this restaurant (link)'); // true
+
+
+// Solution 2
+//
+function balancedParentheses(string) {
+  const count = string.split('').reduce((acc, val) => {
+    if (val === ')') {
+      acc = acc + 1;
+    } else if (val === '(') {
+      acc = acc - 1
+    } 
+    
+    return acc
+  }, 0)
+  
+  return count === 0;
+}
