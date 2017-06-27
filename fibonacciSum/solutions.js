@@ -27,3 +27,18 @@ function fib(n) {
 
 	return fib(n - 1) + fib(n - 2);
 }
+
+// Solution 3:
+// memorization with closure
+var fibM = (function(){
+  var m = [0, 1];
+  var fib = function(n) {
+    var result = m[n];
+    if(typeof result !== 'number') {
+      result = fib(n-1) + fib(n-2);
+      m[n] = result;
+    }
+    return result;
+  }
+  return fib;
+})();
