@@ -9,7 +9,7 @@ Output: "bab"
 Note: "aba" is also a valid answer
 ```
 
-### #Example
+### Example
 ```
 Input: "cbbd"
 Output: "bb"
