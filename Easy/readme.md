@@ -8,3 +8,4 @@
 - Roman To Integer
 - Two Sum
 - Valid Parentheses
+- Print Array
