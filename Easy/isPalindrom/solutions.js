@@ -1,8 +1,9 @@
 // Solution 1:
 // loop half of the string, if first half and last half
 // if all the same then is trusy, else is falsy
-function isPalindrom(str) {
-	var length = str.length();
+function isPalindrom(words) {
+	var str = words.replace(/[\W_]/g, '').toLowerCase();
+	var length = str.length;
 
 	if (length === 1) {
 		return true;
@@ -19,8 +20,9 @@ function isPalindrom(str) {
 
 // Solution 2:
 // recursion
-function isPalindromRecursion(str) {
-	var length = str.length();
+function isPalindromRecursion(words) {
+	var str = words.replace(/[\W_]/g, '').toLowerCase();
+	var length = str.length;
 
 	if (length < 2) {
 		return true;
@@ -47,6 +49,12 @@ but also a word or phrase that when reversed has all the same characters in the 
 */
 
 function isPalindromeViaReversal(str) {
-    str = str.replace(/\W/g, '').toLowerCase();
+    str = str.replace(/[\W_]/g, '').toLowerCase();
     return (str == str.split('').reverse().join(''));
 }
+
+module.exports = {
+	isPalindrom: isPalindrom,
+	isPalindromRecursion: isPalindromRecursion,
+	isPalindromeViaReversal: isPalindromeViaReversal
+};
