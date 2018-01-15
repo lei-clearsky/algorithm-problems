@@ -1,8 +1,8 @@
 ## Algorithm Problems and Solutions
-	- algorithm problems for interviews
+	- practice algorithm problems
 
 ### Run Test
-  - Use node v8.9.1
+  - Use node 8 and plus
   - `npm install`
   - `npm test`
 
