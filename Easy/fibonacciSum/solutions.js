@@ -20,7 +20,7 @@ function fib(n) {
 
 // Solution 2:
 // recursive
-function fib(n) {
+function fibR(n) {
 	if (n < 2) {
 		return n;
 	}
@@ -57,4 +57,10 @@ function fibMem(num, mem) {
   if (num <= 1) return num;
   
   return fibMem(num-1, mem) + fibMem(num-2, mem);
+}
+
+module.exports = {
+  fibonacciSum: fib,
+  fibonacciSumRecursion: fibR,
+  fibonacciSumMemorization: fibMem
 }
