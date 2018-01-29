@@ -16,6 +16,10 @@ describe('maxSubArray solutions', function() {
       expect(maximumSubarrayModule.maxSubArray(arrayA)).to.equal(resultNumA);
       expect(maximumSubarrayModule.maxSubArray(arrayB)).to.equal(resultNumB);
     });
+
+    it('should retun the number if array has only one number', function() {
+      expect(maximumSubarrayModule.maxSubArray([5])).to.equal(5);
+    })
   });
 
   describe('arrayMaxSubArray', function() {
@@ -23,5 +27,9 @@ describe('maxSubArray solutions', function() {
       expect(maximumSubarrayModule.arrayMaxSubArray(arrayA)).to.deep.equal(resultArrA);
       expect(maximumSubarrayModule.arrayMaxSubArray(arrayB)).to.deep.equal(resultArrB);
     });
+
+    it('should return the array if array only has one number', function() {
+      expect(maximumSubarrayModule.arrayMaxSubArray([5])).to.deep.equal([5]);      
+    })
   });
 });
