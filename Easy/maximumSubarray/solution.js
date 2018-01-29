@@ -14,13 +14,10 @@ var maxSubArray = function(nums) {
     return currentMax;
 };
 
-// Test
-maxSubArray(array) // 6
-
-
-
-// This will return the array of the max sum
-// 
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
 var arrayMaxSubArray = function(nums) {
     var currentMax = nums[0];
     var maxAtThisPoint = nums[0];
@@ -37,5 +34,7 @@ var arrayMaxSubArray = function(nums) {
     return nums.slice(startIndex, endIndex);
 };
 
-// Test
-arrayMaxSubArray(array) // [ 4, -1, 2, 1 ]
+module.exports = {
+    maxSubArray: maxSubArray,
+    arrayMaxSubArray: arrayMaxSubArray  
+}
