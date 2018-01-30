@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maxSubArray = function(nums) {
+var maxSubArrayA = function(nums) {
     var currentMax = nums[0];
     var maxAtThisPoint = nums[0];
     
@@ -34,7 +34,27 @@ var arrayMaxSubArray = function(nums) {
     return nums.slice(startIndex, endIndex);
 };
 
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var maxSubArrayB = function(nums) {
+    var currentMax = nums[0];
+    var maxAtThisPoint = nums[0];
+    
+    for (var i = 1; i < nums.length; i++) {
+        maxAtThisPoint = maxAtThisPoint + nums[i];
+        if (maxAtThisPoint < 0) maxAtThisPoint = 0;
+        else if (maxAtThisPoint > currentMax) {
+            currentMax = maxAtThisPoint;
+        }
+    }
+    
+    return currentMax;
+};
+
 module.exports = {
-    maxSubArray: maxSubArray,
+    maxSubArrayA: maxSubArrayA,
+    maxSubArrayB: maxSubArrayB,
     arrayMaxSubArray: arrayMaxSubArray  
 }
