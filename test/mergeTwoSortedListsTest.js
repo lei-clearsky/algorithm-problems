@@ -11,7 +11,8 @@ function Node(val, next) {
 describe('mergeTwoSortedLists solutions', function() {
   var L1, L2;
 
-  var mn6 = new Node(10, null);
+  var mn7 = new Node(12, null);
+  var mn6 = new Node(10, mn7);
   var mn5 = new Node(9, mn6);
   var mn4 = new Node(6, mn5);
   var mn3 = new Node(5, mn4);
@@ -26,8 +27,9 @@ describe('mergeTwoSortedLists solutions', function() {
     var n1 = new Node(1, n2);
     L1 = n1; 
 
-    // create second linked list: 5 -> 6 -> 9
-    var n6 = new Node(9, null);
+    // create second linked list: 5 -> 6 -> 9 -> 12
+    var n7 = new Node(12, null)
+    var n6 = new Node(9, n7);
     var n5 = new Node(6, n6);
     var n4 = new Node(5, n5);
     L2 = n4; 
@@ -37,7 +39,11 @@ describe('mergeTwoSortedLists solutions', function() {
     expect(mergeTwoSortedListsModule.mergeTwoListsRecursion(L1, L2)).to.deep.equal(ML);
   })
 
-  it('should merge two sorted lists iteratively', function() {
-    expect(mergeTwoSortedListsModule.mergeTwoListsIterative(L1, L2)).to.deep.equal(ML);
+  it('should merge two sorted lists iteratively for solution 1', function() {
+    expect(mergeTwoSortedListsModule.mergeTwoListsIterative1(L1, L2)).to.deep.equal(ML);
+  })
+
+  it('should merge two sorted lists iteratively for solution 2', function() {
+    expect(mergeTwoSortedListsModule.mergeTwoListsInterative2(L1, L2)).to.deep.equal(ML);
   })
 });
