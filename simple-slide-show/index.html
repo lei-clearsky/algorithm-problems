@@ -2,19 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Simple Slide Show</title>
-    <meta name="description" content="simple slide show">
+    <title>Simple Slide Show V2</title>
+    <meta name="description" content="simple slide show V2">
     <meta name="author" content="lei">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <ul id="slides">
-      <li class="slide slide__visible">Slide 1</li>
-      <li class="slide">Slide 2</li>
-      <li class="slide">Slide 3</li>
-      <li class="slide">Slide 4</li>
-      <li class="slide">Slide 5</li>
-    </ul>
+    <div class="slides-container">
+      <div id="slides" class="slides">
+        <img class="slide slide__visible" src="https://www.w3schools.com/w3css/img_fjords.jpg">
+        <img class="slide" src="https://www.w3schools.com/w3css/img_lights.jpg">
+        <img class="slide" src="https://www.w3schools.com/w3css/img_mountains.jpg">
+        <img class="slide" src="https://www.w3schools.com/w3css/img_forest.jpg">
+      </div>
+      <button class="slide-nav--prev" onClick="mySlides.prevSlide()">Prev</button>
+      <button class="slide-nav--next" onClick="mySlides.nextSlide()">Next</button>
+    </div>
+    <div class="slides-actions">
+      <button class="slide-nav--auto" onClick="mySlides.autoSlides()">Auto</button>
+      <button class="slide-nav--auto" onClick="mySlides.stopAutoSlides()">Stop</button>
+    </div>
     <script src="app.js"></script>
+    <script>
+      mySlides.init(600);
+    </script>
   </body>
 </html>
