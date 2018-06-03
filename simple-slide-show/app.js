@@ -25,19 +25,19 @@ var mySlides = (function() {
     slidesContainer.className = "slides";
   }
 
-  function autoSlides() {
+  function autoPlay() {
     slideInterval = setInterval(nextSlide, 2000);
   }
 
-  function stopAutoSlides() {
+  function stopAutoPlay() {
     clearInterval(slideInterval);
   }
 
   return {
     nextSlide: nextSlide,
     prevSlide: prevSlide,
-    autoSlides: autoSlides,
-    stopAutoSlides: stopAutoSlides,
+    autoPlay: autoPlay,
+    stopAutoPlay: stopAutoPlay,
     init: init
   }
 })();
