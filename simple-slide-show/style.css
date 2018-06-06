@@ -10,13 +10,19 @@
   position: relative;
   font-size: 0;
   height: 400px;
-  transition: left 300ms;
+  transition: left 500ms;
 }
 
 .slide {
   display: inline-block;
   height: 100%;
   vertical-align: top;
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+.fade-in {
+  opacity: 1;
 }
 
 .slide-nav {

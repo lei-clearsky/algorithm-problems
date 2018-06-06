@@ -10,12 +10,16 @@ var mySlides = (function() {
   }
 
   function nextSlide() {
+    slides[currentSlide].className = 'slide';
     currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].className = 'slide fade-in';
     moveSlide();
   }
 
   function prevSlide() {
+    slides[currentSlide].className = 'slide';
     currentSlide = (currentSlide - 1) < 0 ? slides.length - 1 : currentSlide - 1;
+    slides[currentSlide].className = 'slide fade-in';
     moveSlide();
   }
 
