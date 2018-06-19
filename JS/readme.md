@@ -23,6 +23,8 @@
     - [Currying in JavaScript](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
     - [how does Array.prototype.slice.call() work?](https://stackoverflow.com/questions/7056925/how-does-array-prototype-slice-call-work)
   - [ ] [Higher Order Function]
+    - > Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
+    - [Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html)
   - [ ] [Javascript call() & apply() vs bind()?](https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind)
     - [Difference between call and apply](http://hangar.runway7.net/javascript/difference-call-apply)
   - [ ] [Promises](https://eloquentjavascript.net/11_async.html)
@@ -30,3 +32,7 @@
     - [Philip Roberts: What the heck is the event loop anyway?](https://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html)
     - [Understanding JS: The Event Loop](https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40)
     - [JavaScript Closures: setTimeout Inside a For Loop](https://wsvincent.com/javascript-closure-settimeout-for-loop/)
+  - [ ] Difference between process and thread
+    - [Difference between Process and Thread](http://www.differencebetween.info/difference-between-process-and-thread)
+  - [ ] Difference between let and var
+    - [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
