@@ -19,8 +19,10 @@
     - [MDN This](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
     - [Understand JavaScript’s “this” With Clarity, and Master It](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
     - [The this keyword’s value has nothing to do with the function itself, how the function is called determines the this value](https://toddmotto.com/understanding-the-this-keyword-in-javascript/)
-  - [ ] [Curry]
+  - [ ] [Currying]
+    - > Named after Haskell Brooks Curry, currying is the process of breaking down a function into a series of functions that each take a single argument.
     - [Currying in JavaScript](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
+    - [Currying in JS](https://hackernoon.com/currying-in-js-d9ddc64f162e)
     - [how does Array.prototype.slice.call() work?](https://stackoverflow.com/questions/7056925/how-does-array-prototype-slice-call-work)
   - [ ] [Higher Order Function]
     - > Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
