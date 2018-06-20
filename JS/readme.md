@@ -38,3 +38,11 @@
     - [Difference between Process and Thread](http://www.differencebetween.info/difference-between-process-and-thread)
   - [ ] Difference between let and var
     - [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+  - [ ] Error handlings in JS
+    - [Proper Error Handling in JavaScript](https://scotch.io/tutorials/proper-error-handling-in-javascript)
+    - [JavaScript Promises and Error Handling](https://hackernoon.com/promises-and-error-handling-4a11af37cb0e)
+    - [Error Propagation in JavaScript with Error Translation Pattern](https://medium.com/front-end-hacking/error-propagation-in-javascript-with-error-translation-pattern-78cf7178fe92)
+  - [ ] [JavaScript and the Browser](https://eloquentjavascript.net/13_browser.html)
+  - [ ] [HTTP and Forms](https://eloquentjavascript.net/18_http.html)
+    - > Communication must be stateless in nature [...] such that each request from client to server must contain all of the information necessary to understand the request, and cannot take advantage of any stored context on the server.
+    - [HTTP and Forms](https://eloquentjavascript.net/18_http.html)
