@@ -10,3 +10,4 @@
 	- [Interview Cake](https://www.interviewcake.com/all-questions/javascript)
 	- [Hacker Rank](https://www.hackerrank.com/)
 	- [Reacto](https://github.com/FullstackAcademy/reacto)
+  - [Problem Solving with Algorithms and Data Structures using Python](http://interactivepython.org/runestone/static/pythonds/index.html)

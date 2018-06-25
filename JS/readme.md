@@ -43,6 +43,15 @@
     - [JavaScript Promises and Error Handling](https://hackernoon.com/promises-and-error-handling-4a11af37cb0e)
     - [Error Propagation in JavaScript with Error Translation Pattern](https://medium.com/front-end-hacking/error-propagation-in-javascript-with-error-translation-pattern-78cf7178fe92)
   - [ ] [JavaScript and the Browser](https://eloquentjavascript.net/13_browser.html)
+  - [ ] Modules
+    - [Modules](https://eloquentjavascript.net/10_modules.html)
+    - CommonJS
+      - [CommonJS](https://eloquentjavascript.net/10_modules.html#h_N33QHgUxbG)
   - [ ] [HTTP and Forms](https://eloquentjavascript.net/18_http.html)
     - > Communication must be stateless in nature [...] such that each request from client to server must contain all of the information necessary to understand the request, and cannot take advantage of any stored context on the server.
+  - [ ] [Web APIs]
+    - [Introduction to web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
     - [HTTP and Forms](https://eloquentjavascript.net/18_http.html)
+  - [ ] Events
+    - [Handling Events](https://eloquentjavascript.net/15_event.html)
+  - [ ] Web Worker
