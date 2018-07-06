@@ -6,7 +6,7 @@
 ### Javascript Core
   - [ ] [Javascript inheritance behind the scene __proto__, [[prototype]] and prototype](https://hackernoon.com/understand-nodejs-javascript-object-inheritance-proto-prototype-class-9bd951700b29)
   - [ ] [Constructor Function](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/#constructor)
-  
+
   ![constructor](http://dmitrysoshnikov.com/wp-content/uploads/constructor-proto-chain.png)
 
   - [ ] What is Lexical Scope
@@ -54,4 +54,6 @@
     - [HTTP and Forms](https://eloquentjavascript.net/18_http.html)
   - [ ] Events
     - [Handling Events](https://eloquentjavascript.net/15_event.html)
+  - [ ] Async/Await
+    - [6 Reasons Why JavaScript’s Async/Await Blows Promises Away](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
   - [ ] Web Worker
