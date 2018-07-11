@@ -42,7 +42,18 @@
     - [Proper Error Handling in JavaScript](https://scotch.io/tutorials/proper-error-handling-in-javascript)
     - [JavaScript Promises and Error Handling](https://hackernoon.com/promises-and-error-handling-4a11af37cb0e)
     - [Error Propagation in JavaScript with Error Translation Pattern](https://medium.com/front-end-hacking/error-propagation-in-javascript-with-error-translation-pattern-78cf7178fe92)
-  - [ ] [JavaScript and the Browser](https://eloquentjavascript.net/13_browser.html)
+  - [ ] Browsers
+    - [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+      - ![howbrowserswork](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png)
+      - The rendering engine
+      > responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.
+    - [JavaScript and the Browser](https://eloquentjavascript.net/13_browser.html)
+        ```
+        http://eloquentjavascript.net/13_browser.html
+        |      |                      |               |
+        protocol       server               path
+        ```
+
   - [ ] Modules
     - [Modules](https://eloquentjavascript.net/10_modules.html)
     - CommonJS
