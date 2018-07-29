@@ -3,3 +3,6 @@
 
 ### Test
  - [ ] [Test React Applications with Karma, Jest or Mocha](http://instea.sk/2016/08/testing-react-applications-with-karma-jest-or-mocha/)
+
+### Build
+ - [ ] [Monorepos Lerna](https://codeburst.io/monorepos-by-example-part-1-3a883b49047e)
