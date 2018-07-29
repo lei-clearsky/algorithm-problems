@@ -57,3 +57,22 @@
   - [ ] Async/Await
     - [6 Reasons Why JavaScript’s Async/Await Blows Promises Away](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
   - [ ] Web Worker
+  - [ ]
+    ```
+    for (statement 1; statement 2; statement 3) {
+      code block to be executed
+    }
+    ```
+    - > Statement 1 is executed (one time) before the execution of the code block.
+        Statement 2 defines the condition for executing the code block.
+        Statement 3 is executed (every time) after the code block has been executed.
+    ```
+      for (i = 5; i !== 0; i--) {
+        console.log(i);
+      } // prints 5, 4, 3, 2, 1
+
+      for (i = 5; i-- !== 0;) {
+        console.log(i);
+      } // prints 4, 3, 2, 1, 0
+    ```
+    - ++i increase the value BEFORE it is used, whereas i++ uses the value of i and THEN increases the value.
