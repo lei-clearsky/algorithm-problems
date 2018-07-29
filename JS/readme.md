@@ -42,7 +42,18 @@
     - [Proper Error Handling in JavaScript](https://scotch.io/tutorials/proper-error-handling-in-javascript)
     - [JavaScript Promises and Error Handling](https://hackernoon.com/promises-and-error-handling-4a11af37cb0e)
     - [Error Propagation in JavaScript with Error Translation Pattern](https://medium.com/front-end-hacking/error-propagation-in-javascript-with-error-translation-pattern-78cf7178fe92)
-  - [ ] [JavaScript and the Browser](https://eloquentjavascript.net/13_browser.html)
+  - [ ] Browsers
+    - [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+      - ![howbrowserswork](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png)
+      - The rendering engine
+      > responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.
+    - [JavaScript and the Browser](https://eloquentjavascript.net/13_browser.html)
+        ```
+        http://eloquentjavascript.net/13_browser.html
+        |      |                      |               |
+        protocol       server               path
+        ```
+
   - [ ] Modules
     - [Modules](https://eloquentjavascript.net/10_modules.html)
     - CommonJS
@@ -57,7 +68,7 @@
   - [ ] Async/Await
     - [6 Reasons Why JavaScript’s Async/Await Blows Promises Away](https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9)
   - [ ] Web Worker
-  - [ ]
+  - [ ] Revisit For loop
     ```
     for (statement 1; statement 2; statement 3) {
       code block to be executed
@@ -76,3 +87,23 @@
       } // prints 4, 3, 2, 1, 0
     ```
     - ++i increase the value BEFORE it is used, whereas i++ uses the value of i and THEN increases the value.
+  - [ ] Copying Arrays
+    - [Copying an array in JavaScript](https://www.briangonzalez.org/post/copying-array-javascript)
+    - [Copying array by value in JavaScript](https://stackoverflow.com/questions/7486085/copying-array-by-value-in-javascript)
+   ```javascript
+    const names = [ 'Jon', 'Jacob', 'Jeff' ]
+    // For references, strings and numbers (and not the actual object),
+    // slice copies object references into the new array. Both the original and new array
+    // refer to the same object. If a referenced object changes,
+    // the changes are visible to both the new and original arrays.
+    const copy1 = names.slice()
+    const copy2 = [].concat(names)
+    const copy3 = Object.values(names)
+    const copy4 = [...names]
+    const copy5 = Array.of(...names)
+    // The JSON.parse(JSON.stringify(myArray)) technique can be used to deep copy literal values (boolean, number, string)
+    // and literal structures (array, object), but not prototype objects.
+    const copy6 = JSON.parse(JSON.stringify(names))
+    const copy7 = names.map(i => i)
+    const copy8 = Object.assign([], names)
+  ```
