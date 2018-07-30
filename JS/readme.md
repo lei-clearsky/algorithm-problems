@@ -107,3 +107,8 @@
     const copy7 = names.map(i => i)
     const copy8 = Object.assign([], names)
   ```
+
+- [ ] typeof vs instanceof
+  - [The typeof operator returns a string indicating the type of the unevaluated operand.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+  - [The instanceof operator tests the presence of constructor.prototype in object's prototype chain.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+  - [instanceof vs. typeof in String](https://bambielli.com/til/2017-06-18-typeof-vs-instanceof/)
