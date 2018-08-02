@@ -30,6 +30,8 @@
   - [ ] [Javascript call() & apply() vs bind()?](https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind)
     - [Difference between call and apply](http://hangar.runway7.net/javascript/difference-call-apply)
   - [ ] [Promises](https://eloquentjavascript.net/11_async.html)
+    - [Promises.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+    - [Handling Multiple JavaScript Promises Even if Some Fail](http://adampaxton.com/handling-multiple-javascript-promises-even-if-some-fail/)
   - [ ] Event Loop
     - [Philip Roberts: What the heck is the event loop anyway?](https://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html)
     - [Understanding JS: The Event Loop](https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40)
