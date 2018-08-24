@@ -12,3 +12,6 @@
     content: counter(section);                  /* Display the value of section counter */
   }
   ```
+- [Sticky Footer, Five Ways](https://css-tricks.com/couple-takes-sticky-footer/)
+  - [Chrome position:fixed and transformZ bug](https://stackoverflow.com/questions/12731975/chrome-positionfixed-and-transformz-bug)
+  - [Why need flex-shrink: 0](https://codepen.io/noahblon/post/practical-guide-to-flexbox-dont-forget-about-flex-shrink)
