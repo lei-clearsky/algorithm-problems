@@ -18,3 +18,5 @@ Traversing over the tree with each function would produce the following results:
 | `depthFirstPostOrder` | `K L E B M F G H C I J D A` | A node is not traversed until all its children are reached |
 
 From: https://github.com/FullstackAcademy/reacto/tree/master/tree-traversals
+
+Video: https://www.youtube.com/watch?v=D5SrAga1pno
