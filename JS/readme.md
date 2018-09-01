@@ -29,6 +29,8 @@
     - [Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html)
   - [ ] [Javascript call() & apply() vs bind()?](https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind)
     - [Difference between call and apply](http://hangar.runway7.net/javascript/difference-call-apply)
+    - [Why would you pass 'null' to 'apply' or 'call'?](https://stackoverflow.com/questions/33640079/why-would-you-pass-null-to-apply-or-call)
+    - > When using .call() or .apply(), null can be passed when you have no specific value that you want to set the this pointer to and you know that the function you are calling is not expecting this to have any specific value (e.g. it does not use this in its implementation).
   - [ ] [Promises](https://eloquentjavascript.net/11_async.html)
     - [Promises.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
     - [Handling Multiple JavaScript Promises Even if Some Fail](http://adampaxton.com/handling-multiple-javascript-promises-even-if-some-fail/)
