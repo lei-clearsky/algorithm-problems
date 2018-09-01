@@ -6,3 +6,6 @@
 
 ### Build
  - [ ] [Monorepos Lerna](https://codeburst.io/monorepos-by-example-part-1-3a883b49047e)
+
+### NPM
+ - [ ] [Locally test your npm modules without publishing them to npmjs.org](http://podefr.tumblr.com/post/30488475488/locally-test-your-npm-modules-without-publishing)
