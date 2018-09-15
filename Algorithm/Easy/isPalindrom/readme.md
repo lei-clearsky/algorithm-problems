@@ -4,3 +4,9 @@
 
 Resources:
 - https://medium.freecodecamp.org/two-ways-to-check-for-palindromes-in-javascript-64fea8191fd7.
+
+## is Palindrom Number
+- Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+
+Resources:
+- https://leetcode.com/problems/palindrome-number/description/
