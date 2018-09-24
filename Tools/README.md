@@ -3,6 +3,7 @@
 
 ### Test
  - [ ] [Test React Applications with Karma, Jest or Mocha](http://instea.sk/2016/08/testing-react-applications-with-karma-jest-or-mocha/)
+ - [ ] [Setting up Karma to work with Enzyme, Mocha, and Webpack in 2017](https://medium.com/@Jukejc/setting-up-karma-to-work-with-enzyme-mocha-and-webpack-in-2017-1ab0c2e9ef00)
 
 ### Build
  - [ ] [Monorepos Lerna](https://codeburst.io/monorepos-by-example-part-1-3a883b49047e)
