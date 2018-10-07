@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Slide Show V2</title>
+    <meta name="description" content="simple slide show V2">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="slider" class="slider">
+      <ul class="slider__slides">
+        <li class="slider__slide slider__slide--active">
+          <img src="http://via.placeholder.com/500x400/1abc9c/ffffff">
+        </li>
+        <li class="slider__slide">
+          <img src="http://via.placeholder.com/500x400/3498db/ffffff">
+        </li>
+        <li class="slider__slide">
+          <img src="http://via.placeholder.com/500x400/8e44ad/ffffff">
+        </li>
+        <li class="slider__slide">
+          <img src="http://via.placeholder.com/500x400/f1c40f/ffffff">
+        </li>
+        <li class="slider__slide">
+          <img src="http://via.placeholder.com/500x400/e74c3c/ffffff">
+        </li>
+      </ul>
+      <div class="slider__circles" id="sliderCircles">
+        <div class="slide__circle slide__circle--active"></div>
+        <div class="slide__circle"></div>
+        <div class="slide__circle"></div>
+        <div class="slide__circle"></div>
+        <div class="slide__circle"></div>
+      </div>
+      <div class="slider__controls">
+        <button id="sliderPrev" class="slider__prev">Prev</button>
+        <button id="sliderNext" class="slider__next">Next</button>
+        <button id="auto">Auto</button>
+        <button id="stop">Stop</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
