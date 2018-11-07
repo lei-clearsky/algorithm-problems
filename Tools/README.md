@@ -13,3 +13,7 @@
   - [ ] [Locally test your npm modules without publishing them to npmjs.org](http://podefr.tumblr.com/post/30488475488/locally-test-your-npm-modules-without-publishing)
   - [ ] [Node.js — How to test your new NPM module without publishing it every 5 minutes](https://medium.com/@the1mills/how-to-test-your-npm-module-without-publishing-it-every-5-minutes-1c4cb4b369be)
   - [ ] [Testing npm modules without publishing them to npmjs](https://www.linkedin.com/pulse/testing-npm-modules-without-publishing-them-npmjs-jaivardhan-singh/)
+
+### Infra
+- [ ] [A Comprehensive Guide to Terraform](https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca)
+- [ ] [Terraform Documentation](https://www.terraform.io/docs/index.html)
