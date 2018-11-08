@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  font-weight: 300;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.tic-tac-toe {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.tic-tac-toe__heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.tic-tac-toe__score {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.tic-tac-toe__board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+}
+
+.tic-tac-toe__board-cell {
+  background-color: #f0f0f0;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.tic-tac-toe__board-cell--red,
+.tic-tac-toe__board-cell--black {
+  position: relative;
+}
+
+.tic-tac-toe__board-cell--red:before,
+.tic-tac-toe__board-cell--red:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: 10px;
+  background-color: tomato;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.tic-tac-toe__board-cell--red:before {
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.tic-tac-toe__board-cell--red:after {
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+.tic-tac-toe__board-cell--black:before,
+.tic-tac-toe__board-cell--black:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 80%;
+  width: 80%;
+  border: 10px solid #333;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.tic-tac-toe__actions {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding: 20px;
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.tic-tac-toe__actions--visible {
+  visibility: visible;
+}
+
+.tic-tac-toe__actions-status {
+  font-size: 36px;
+  font-weight: 300;
+  margin-top: 200px;
+}
+
+.tic-tac-toe__actions-play,
+.tic-tac-toe__actions-cancel {
+  width: 180px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #09c;
+  padding: 10px 20px;
+  border:0;
+  cursor: pointer;
+}
+
+.tic-tac-toe__actions-play:hover,
+.tic-tac-toe__actions-cancel:hover {
+  background-color: #14A7D8;
+}
