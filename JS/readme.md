@@ -47,6 +47,7 @@
     - [JavaScript Promises and Error Handling](https://hackernoon.com/promises-and-error-handling-4a11af37cb0e)
     - [Error Propagation in JavaScript with Error Translation Pattern](https://medium.com/front-end-hacking/error-propagation-in-javascript-with-error-translation-pattern-78cf7178fe92)
   - [ ] Browsers
+    - [Browser process and JS single thread](https://segmentfault.com/a/1190000013083967)
     - [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
       - ![howbrowserswork](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/layers.png)
       - The rendering engine
@@ -116,3 +117,10 @@
   - [The typeof operator returns a string indicating the type of the unevaluated operand.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
   - [The instanceof operator tests the presence of constructor.prototype in object's prototype chain.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
   - [instanceof vs. typeof in String](https://bambielli.com/til/2017-06-18-typeof-vs-instanceof/)
+
+- [ ] Web APIs
+  - [ ] Web Worker
+    - [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
+  - [ ] Intersection Observer API
+    - [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+    
