@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe Game V1</title>
+    <meta name="description" content="Simple Tic Tac Toe Game">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="ticTacToe" class="tic-tac-toe">
+      <h1 class="tic-tac-toe__heading">Tic-Tac-Toe</h1>
+      <div id="ticTacToeScore" class="tic-tac-toe__score">
+        <div class="tic-tac-toe__score-col">RED: <span id="scoreRed">0</span></div>
+        <div class="tic-tac-toe__score-col">BLACK: <span id="scoreBlack">0</span></div>
+        <div class="tic-tac-toe__score-col">TIE: <span id="scoreTie">0</span></div>
+      </div>
+      <div id="ticTacToeBoard" class="tic-tac-toe__board"></div>
+      <div id="ticTacToeActions" class="tic-tac-toe__actions">
+        <h2 class="tic-tac-toe__actions-status">You <span id="ticTacToeStatus"></span>!</h2>
+        <button id="ticTacToePlayAgain" class="tic-tac-toe__actions-play">Play Again?</button>
+        <button id="ticTacToePlayCancel" class="tic-tac-toe__actions-cancel">Cancel</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
