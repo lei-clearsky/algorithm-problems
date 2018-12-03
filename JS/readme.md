@@ -123,4 +123,7 @@
     - [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
   - [ ] Intersection Observer API
     - [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
-    
+
+- [ ] Script Tag - async & defer
+  - [ ] [<script>: The Script element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+  - [ ] [Script Tag - async & defer](https://stackoverflow.com/questions/10808109/script-tag-async-defer)    
