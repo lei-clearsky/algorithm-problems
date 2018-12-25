@@ -126,4 +126,11 @@
 
 - [ ] Script Tag - async & defer
   - [ ] [<script>: The Script element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
-  - [ ] [Script Tag - async & defer](https://stackoverflow.com/questions/10808109/script-tag-async-defer)    
+  - [ ] [Script Tag - async & defer](https://stackoverflow.com/questions/10808109/script-tag-async-defer)
+
+- [ ] Var, let and const
+  - [ ] [Var, let and const- what's the difference?](https://dev.to/sarah_chima/var-let-and-const--whats-the-difference-69e)
+    - var declarations are globally scoped or function scoped while let and const are block scoped.
+    - var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.
+    - They are all hoisted to the top of their scope but while varvariables are initialized with undefined, let and const variables are not initialized.
+    - While var and let can be declared without being initialized, const must be initialized during declaration.
