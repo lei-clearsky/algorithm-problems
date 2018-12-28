@@ -22,6 +22,7 @@
 
 - Flexbox
   - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  - [Even more about how Flexbox works — explained in big, colorful, animated gifs](https://medium.freecodecamp.org/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053)
 
 - Grid
   - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
